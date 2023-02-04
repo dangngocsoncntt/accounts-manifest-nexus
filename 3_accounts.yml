@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: accounts
-        image: 52.68.250.39:8083/accounts:49
+        image: 52.68.250.39:8083/accounts:3
         ports:
         - containerPort: 29910
         env:
