@@ -26,6 +26,8 @@ spec:
             configMapKeyRef:
               name: dangngocsoncntt-configmap
               key: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+	  imagePullSecrets:
+	  - name: regcred 
 ---
 apiVersion: v1
 kind: Service
